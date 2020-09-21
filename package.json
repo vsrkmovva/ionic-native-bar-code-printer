@@ -1,0 +1,23 @@
+{
+  "name": "@ionic-native/lpapi",
+  "version": "1.0.0",
+  "description": "native wraper for ionic-cordova-lpapi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsrkmovva/ionic-native-bar-code-printer.git"
+  },
+  "keywords": [
+    "lpapi",
+    "capacitor"
+  ],
+  "author": "sivaram-movva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vsrkmovva/ionic-native-bar-code-printer/issues"
+  },
+  "homepage": "https://github.com/vsrkmovva/ionic-native-bar-code-printer#readme"
+}
