@@ -6,7 +6,7 @@ import { IonicNativePlugin } from '@ionic-native/core';
  *
  * @usage
  * ```typescript
- * import { BarCodePrinter } from '@ionic-native/bar-code-printer';
+ * import { BarCodePrinter } from '@ionic-native/lpapi';
  *
  *
  * constructor(private barCodePrinter: BarCodePrinter) { }
@@ -29,6 +29,13 @@ export declare class BarCodePrinterOriginal extends IonicNativePlugin {
      * @return {Promise<any>} Returns a promise that resolves when something happens
      */
     getAllPrinters(names: any): Promise<any>;
+    getItemHorizontalAlignment(params: any): Promise<any>;
+    startJob(params: any): Promise<any>;
+    drawBarcode(params: any): Promise<any>;
+    commitJob(params: any): Promise<any>;
+    drawText(params: any): Promise<any>;
+    openPrinter(params: any): Promise<any>;
+    closePrinter(params: any): Promise<any>;
 }
 
 export declare const BarCodePrinter: BarCodePrinterOriginal;
